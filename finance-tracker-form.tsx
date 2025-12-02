@@ -39,7 +39,7 @@ export default function FinanceForm() {
 
     // Encode pesan untuk URL
     const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/628123456789?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/6285117160037?text=${encodedMessage}`;
     
     // Buka WhatsApp
     window.open(whatsappUrl, '_blank');
