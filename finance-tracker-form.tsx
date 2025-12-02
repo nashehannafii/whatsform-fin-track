@@ -139,6 +139,7 @@ export default function FinanceForm() {
                 <option value="food">🍔 Food</option>
                 <option value="transport">🚗 Transport</option>
                 <option value="tersier">🎮 Tersier</option>
+                <option value="salary">💼 Salary</option>
                 <option value="charity">❤️ Charity</option>
                 <option value="other">📦 Other</option>
               </select>
