@@ -1,0 +1,53 @@
+/* Minimal reset so layout looks okay without Tailwind */
+html,body,#root{height:100%;margin:0;font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial}
+button{cursor:pointer}
+
+/* Basic utilities to approximate some spacing used in component (not full Tailwind) */
+.min-h-screen{min-height:100vh}
+.bg-gradient-to-br{background:linear-gradient(135deg,var(--tw-from, #f0fff4),var(--tw-to,#ebf8ff))}
+.bg-white{background:#fff}
+.rounded-2xl{border-radius:1rem}
+.shadow-xl{box-shadow:0 10px 15px -3px rgba(0,0,0,0.1)}
+.p-8{padding:2rem}
+.py-8{padding-top:2rem;padding-bottom:2rem}
+.px-4{padding-left:1rem;padding-right:1rem}
+.max-w-md{max-width:28rem;margin-left:auto;margin-right:auto}
+.text-center{text-align:center}
+.mb-8{margin-bottom:2rem}
+.text-3xl{font-size:1.875rem}
+.font-bold{font-weight:700}
+.text-gray-800{color:#1f2937}
+.text-gray-600{color:#4b5563}
+.mb-2{margin-bottom:.5rem}
+.space-y-6> :not([hidden]) ~ :not([hidden]){margin-top:1.5rem}
+.w-full{width:100%}
+.px-4{padding-left:1rem;padding-right:1rem}
+.py-3{padding-top:.75rem;padding-bottom:.75rem}
+.border{border:1px solid #e5e7eb}
+.rounded-lg{border-radius:.5rem}
+.focus\:ring-2:focus{box-shadow:0 0 0 4px rgba(34,197,94,0.15)}
+.font-medium{font-weight:500}
+.grid{display:grid}
+.grid-cols-2{grid-template-columns:repeat(2,1fr)}
+.gap-3{gap:.75rem}
+.w-16{width:4rem}
+.h-16{height:4rem}
+.inline-flex{display:inline-flex}
+.items-center{align-items:center}
+.justify-center{justify-content:center}
+.bg-green-100{background:#dcfce7}
+.text-green-600{color:#16a34a}
+.bg-green-500{background:#10b981}
+.text-white{color:#fff}
+.bg-gray-100{background:#f3f4f6}
+.text-gray-700{color:#374151}
+.hover\:bg-gray-200:hover{background:#e5e7eb}
+.bg-red-500{background:#ef4444}
+.shadow-lg{box-shadow:0 8px 20px rgba(0,0,0,0.08)}
+.w-6{width:1.5rem}
+.h-6{height:1.5rem}
+.mt-6{margin-top:1.5rem}
+.text-sm{font-size:.875rem}
+
+/* Make SVG icons inherit currentColor when possible */
+svg{display:inline-block;vertical-align:middle}
